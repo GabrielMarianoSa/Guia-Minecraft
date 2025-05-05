@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela ios</title>
+</head>
+
+<body>
+    <caption>Tabela de Gastos Mensais</caption> <!--Descreve a tabela-->
+    <tr>
+        <th>Tabela de Gastos</th>
+    </tr>
+    <table border="black 10px">
+        <thead> <!--Thead define o cabeçalho da Tabela-->
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+                <th>Ganhos Mensais</th>
+                <th>Gastos Mensais</th>
+                <th>Total</th>
+                <th>Sobra</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>São Paulo</td>
+                <td>R$1.400,00</td>
+                <td>R$1.000,00</td>
+                <td>R$1.000,00</td>
+                <td>R$400,00</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Rio de Janeiro</td>
+                <td>R$1.350,00</td>
+                <td>R$1.450,00</td>
+                <td>R$1.450,00</td>
+                <td style="background-color: red;">R$-100,00</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>Belo Horizonte</td>
+                <td>R$760,00</td>
+
+                <td>R$1.850,00</td>
+                <td>R$1.850,00</td>
+                <td style="background-color: red;">R$-990.00</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>24</td>
+                <td>Nordeste</td>
+                <td>R$600,00</td>
+                <td>R$950,00</td>
+                <td>R$950,00</td>
+                <td>R$350,00</td>
+            </tr>
+            <tr>
+                <td>Ingrid</td>
+                <td>23</td>
+                <td>Norte</td>
+                <td>R$250,00</td>
+                <td>R$4.550,00</td>
+                <td>4.550,00</td>
+                <td style="background-color: red;">-4.300,00</td>
+            </tr>
+        </tbody>
+
+        <!--Falta colocar o TFOOT (Rodapé) - cálculos incorretos-->
+        <tfoot>
+            <td>TOTAL</td>
+            <td></td>
+            <td></td>
+            <td>R$4.360,00</td>
+            <td>R$9.800,00</td>
+            <td>R$9.800,00</td>
+            <td>R$750,00</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
